@@ -1,0 +1,93 @@
+.photo-slider{
+     padding: 35px 7% 15px 7%;
+     background: $light-purple;
+     border-top: $yellow-border;
+     border-bottom: $yellow-border;
+}
+
+.subpage-header{
+     margin-top: 15px;
+     margin-bottom: 15px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.subpage-header h1{
+     float: left;
+     font-size: 2.5em;
+     padding: 0 2.5%;
+     color: $colonial-yellow;
+}
+
+.flexslider{
+     width: 90%;
+     margin: 0 auto;
+     border: none;
+     background: transparent;
+}
+
+.flex-active-slide{
+     img{
+          border: $border-style;
+     }
+}
+
+.flex-direction-nav a{
+
+}
+
+.flex-control-paging li a{
+     background: $green-rgb;
+}
+
+.flex-control-paging li a:hover{
+     background: $bright-green;
+}
+
+.flex-control-paging li a.flex-active{
+     background: $bright-green;
+}
+
+.flex-caption{
+     color: $colonial-yellow;
+     margin:0;
+     padding: 15px 0;
+     //text-align: center;
+}
+
+.flex-control-nav {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.flex-direction-nav a:before{
+     color: $bright-green;
+}
+
+@media screen and (max-width: 989px){
+     .photo-slider{
+          padding-right: .8em;
+          padding-left: .8em;
+     }
+
+     .flexslider .flex-direction-nav .flex-prev{
+          left: 0;
+     }
+
+     .flexslider .flex-direction-nav .flex-next{
+          right: 0;
+     }
+
+     .flex-direction-nav a{
+          width: 20px;
+          height:20px;
+     }
+
+     .flex-direction-nav a:before{
+          font-size: 20px;
+     }
+}

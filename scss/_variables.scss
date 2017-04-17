@@ -1,0 +1,42 @@
+$white: #fff;
+$black: #000;
+$light-black: rgb(30, 30, 30);
+$colonial-red: #BB3631;
+$colonial-red-light: rgba(187, 54, 49, 0.3);
+$colonial-white: rgb(219,212,194);
+$dark-purple: #30283D;
+$light-purple: #6A5E72;
+$colonial-yellow: #F3EFCF;
+$bright-green: #9DE0AD;
+$green-rgb: rgba(157,224,173, 0.3);
+$newgreen-rgb: rgba(157,224,173, 0.8);
+
+//colors
+$border-style: 1px solid $bright-green;
+$yellow-border: 3px solid $colonial-yellow;
+
+
+
+//fonts
+$headline: 'Philosopher', sans-serif;
+$paragraph: 'Open Sans', sans-serif;
+
+//mixins
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+
+
+/*@mixin border-style{
+	border-top: 1px solid $colonial-red;
+}
+
+@mixin border-bottom-style{
+	border-bottom: 1px solid $colonial-red;
+}*/
